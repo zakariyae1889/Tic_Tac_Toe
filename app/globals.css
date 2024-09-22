@@ -1,0 +1,39 @@
+.container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gameborad{
+  width: 300px;
+  height: 300px;
+  border: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border: solid 1px;
+  box-sizing: border-box;
+  
+}
+.cross,.circle {
+  font-size: 80px;
+  font-weight: bold;
+
+}
+.cross{
+  color: crimson;
+}
+.circle{
+  color: rgb(51, 15, 255);
+}
